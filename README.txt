@@ -1,1 +1,1 @@
-This folder is created to write git assignments.
+This folder is created to write git assignments.html-assignments branch is created.
