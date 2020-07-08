@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Using Array Object </title>
+    </head>
+    <body>
+        <p>List of Employees <br>
+        -------------------------------</p>
+        <p id="demo"></p>
+        <script language="javascript">
+
+            var arrname = new Array("Tove","Hege","Stale","Kai Jim","Borge");
+            
+            arrlength = arrname.length;
+            text = "<ol>";
+            for( i=0 ; i < arrlength+1 ; i++){
+             text += "<li> "+ arrname[i] + "</li>";
+            
+            }
+            text += "</ol>";
+            document.getElementById("demo").innerHTML = text;
+
+        </script>
+    </body>
+</html>
